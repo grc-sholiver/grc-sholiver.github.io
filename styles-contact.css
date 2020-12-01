@@ -80,22 +80,22 @@ html, body {
 
 
 p {
-font-family: "Courier New", Courier, monospace
-    font-weight: 400;
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
     font-style: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
-    padding: 0px 0px;
+    padding: 15px 15px;
     margin: 0px auto 25px auto;
 }
     
 nav{
-   font-family: snell roundhand, script;
+   font-family: 'Sacramento', cursive;
     font-weight: 400;
     font-style: normal;
 	font-size: 1.5em;
-    line-height: 1.4;
+    line-height: 2;
     color: white;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
@@ -119,7 +119,3 @@ a{
 nav a:hover {
     text-decoration: underline;
     }
-
-/* visited link */
-a:visited {
-  color: #7693d5;
