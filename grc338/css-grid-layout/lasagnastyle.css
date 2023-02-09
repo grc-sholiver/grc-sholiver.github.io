@@ -1,0 +1,108 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+div.container {
+    background:white;
+    }
+    
+img {
+    width: 100%; /*Please leave this line.*/
+     grid-column: 1/5;
+}
+
+figure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+figcaption {
+    padding: 2em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+    grid-column: 5/6;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+
+h1 {
+    background: #FE8800;
+    color: #FAFBFA;
+    padding: 2em 1em 0em;
+    font-size: 3em;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+}
+
+h2 {
+    background: #FE8800;
+    color: #FAFBFA;
+    padding: 0.5em 1.5em 1.5em;
+    font-size: 2em;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+}
+
+section.ingredients {
+    grid-column: 1/2;
+}
+
+section.directions {
+    grid-column: 2/3;
+}
+
+h3 {
+    color:#FE8800;
+    margin: 1.75em 2em 0em 2em;
+    padding: 1em 0em;
+    font-size: 1.25em;
+    font-family: Sutro, serif;  
+    font-weight: 400;  
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-top: 0.1em;
+    border-top-color: #FE8800;
+    border-top-style: solid;
+}
+
+li {
+    margin: 1em 1.5em 1em 1em;
+    display: list-item;
+}
+
+ul {
+    padding: 1em 1.5em 1em 1.25em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+ol {    
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: bold;
+}
+
+footer {
+    background: #FE8800;
+    color: #FAFBFA;
+    grid-column: 1/3;
+    padding: 1em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: regular;
+}
